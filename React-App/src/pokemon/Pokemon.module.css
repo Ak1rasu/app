@@ -1,0 +1,62 @@
+.pokemon {
+  text-align: center;
+}
+
+.name {
+  font-size: 2rem;
+  margin: 10px 0;
+}
+
+.pokemon img {
+  width: 200px;
+  height: 200px;
+}
+
+.types {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin: 10px 0;
+}
+
+.type {
+  padding: 5px 10px;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+}
+
+.description {
+  margin: 20px 0;
+  font-style: italic;
+}
+
+.moves {
+  text-align: left;
+  max-height: 300px;
+  overflow-y: auto;
+}
+
+.moves ul {
+  columns: 2;
+  -webkit-columns: 2;
+  -moz-columns: 2;
+}
+
+.moves li {
+  margin: 5px 0;
+  padding: 5px;
+  border-radius: 4px;
+}
+
+.moves li.stab {
+  background-color: #ffeb3b;
+}
+
+.search {
+  margin-bottom: 20px;
+}
+
+.search input {
+  width: 200px;
+}

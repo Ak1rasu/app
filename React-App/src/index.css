@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.4rem;
+}
+
+nav {
+    display: flex;
+    gap: 1.5rem;
+    padding: 1.2rem 1.6rem;
+    background: #702121;
+    border-bottom: 0.3rem solid #000000;
+    margin-bottom: 1rem;
+}
+
+nav button {
+    background: transparent;
+    border: 1px solid #300202;
+    color: #fff;
+    padding: 0.8rem 1.4rem;
+    border-radius: 0.8rem;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+nav button:hover {
+    background: #470303;
+    border-color: #d3c7c7;
+}
+
+nav button.active {
+    background: #dbc6c6;
+    color: #000;
+    border-color: #300202;
+}

@@ -1,6 +1,6 @@
 import './App.css';
-import { AboutMe } from './assets/AboutMe.jsx';
-import { Top10 } from './assets/Top10.jsx';
+import { AboutMe } from './AboutMe.jsx';
+import { Top10 } from './Top10.jsx';
 
 function App() {
   return (
